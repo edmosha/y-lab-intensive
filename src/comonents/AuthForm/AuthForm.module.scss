@@ -1,0 +1,63 @@
+@import '../../variables.module.scss';
+
+.authForm {
+  max-width: 457px;
+  width: 100%;
+  padding: 73px 92px 83px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+  @media screen and (min-width: 425px) and (max-width: 767px) {
+    padding: 53px 42px 63px;
+  }
+
+  @media screen and (max-width: 424px) {
+    padding: 33px 18px 43px;
+  }
+}
+
+.title {
+  margin-bottom: 44px;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 424px) {
+    margin-bottom: 22px;
+  }
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.submitBtn {
+  width: 100%;
+  height: 40px;
+  margin-top: 23px;
+  border-radius: 7px;
+  background: $violet-color;
+  color: $white-color;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: background 0.4s;
+
+  &:hover {
+    background: $dark-violet-color;
+  }
+
+  &:disabled {
+    pointer-events: none;
+    background: $light-grey;
+  }
+}
