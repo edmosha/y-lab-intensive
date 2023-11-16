@@ -1,3 +1,8 @@
+## Форма авторизации 
+> ###### без бэкенда
+
 Cайт: https://edmosha.github.io/y-lab-intensive/
 
-Валидные данные для входа: admin@gmail.com admin
+Валидные данные: admin@gmail.com admin
+
+`nextjs` `react` `react-hook-form` `typescript` `scss`
